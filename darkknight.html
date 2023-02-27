@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Sayfa</title>
+    <title>The Dark Knight</title>
     <link rel="shortcut icon" href="image/logo_favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
 </head>
@@ -12,7 +12,7 @@
     <nav>
         <div class="container">
             <a href="index.html"><img height="60px" width="195px" src="image/logo-transparent.png"></a>
-            <!-- navbar öğeleri yerleştirildi -->
+            <!-- Navbar öğeleri eklendi -->
             <div class="menu">
                 <a href="index.html">Home</a>
                 <a href="friends.html">Friends</a>
@@ -24,7 +24,7 @@
             </div>
             <!-- Hamburger menü oluşturuldu -->
             <button class="hamburger">
-                <!-- Hamburger menü çizgileri eklendi  -->
+            <!-- Hamburger menü çizgileri eklendi  -->
                 <span></span>
                 <span></span>
                 <span></span>
@@ -32,15 +32,34 @@
         </div>
     </nav>
     <section>
-        <!-- Film fotoğrafları ana sayfaya yerleştirildi -->
-        <a href="darkknight.html"><img  class="image_movie" src="image/dark_knight.jpg"></a>
-        <a href="movie.html"><img  class="image_movie" src="image/v_for_vandetta.jpg"></a>
-        <a href="movie.html"><img  class="image_movie" src="image/the_green_mile.jpg"></a>
-        <a href="movie.html"><img  class="image_movie" src="image/the_grand_budapest_hotel.jpg"></a>
-        <a href="movie.html"><img  class="image_movie" src="image/godfather.jpg"></a>
-        <a href="movie.html"><img  class="image_movie" src="image/trumanshow.jpg"></a>
-        <a href="movie.html"><img  class="image_movie" src="image/sw_rots.jpg"></a>
+        <!--    Fragman youtube videosu html içerisinde çalıştırıldı -->
+        <iframe
 
+        class="yt_video"
+        width="660"
+        height="415" 
+        src="https://www.youtube.com/embed/EXeTwQWrcwY"
+        title="The Dark Knight Trailer"
+        frameborder="0" 
+        allow="accelerometer; 
+        autoplay; 
+        clipboard-write;
+        encrypted-media; 
+        gyroscope; 
+        picture-in-picture;
+        web-share"
+        allowfullscreen>
+
+        </iframe>
+        <!-- Yorum kutusu oluşturuldu -->
+        <div class="comment">
+            <h2>Leave A Comment For Your Friends</h2>
+            <div>
+                <!-- Kullanıcı yazı yazana kadar kalması için placeholder oluşturuldu -->
+                <textarea placeholder='Add Your Comment'></textarea>
+                <input type="submit" value='Comment'>
+            </div>
+        </div>
     </section>
     <script src="main.js"></script>
 </body>
