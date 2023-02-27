@@ -32,7 +32,17 @@ nav{
     background-color: var(--light);
     padding: 16px 32px;
 }
-
+.image_movie{
+    width: 200px;
+    height: 300px;
+    margin: 160px 80px;
+    border: 10px solid #FFC300;
+    border-radius: 10px;
+}
+.image_movie:hover{
+    transition: 0.2s;
+    border: 15px solid #FFC300;
+}
 .hamburger{
     display: block;
     position: relative;
