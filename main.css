@@ -11,7 +11,7 @@
     font-family: sans-serif;
 }
 
-.container{
+.navbar{
     
    
     margin: 0 auto;
@@ -31,6 +31,8 @@ nav{
     z-index: 99;
     background-color: var(--light);
     padding: 16px 32px;
+    border: 16px 32px;
+    
 }
 
 
@@ -67,12 +69,20 @@ input[type="submit"]
 h2{
     color: #FFC300; 
 }
+/* film seçeneğine girildiğinde sağ tarafta Friends yazısı yazıldı */
+h3{
+    color: #FFC300;
+    padding: 8px 16px;;
+}
 .image_movie{
+
     width: 200px;
     height: 300px;
-    margin: 160px 80px;
+    margin: 110px 80px;
     outline: 10px solid  #FFC300;
     border-radius: 6px;
+
+    
     
     
 }
@@ -141,6 +151,7 @@ h2{
     flex: 1 1 0%;
     justify-content: flex-start;
     margin: 0 0px;
+    
 
 }
 /* navbar üzerindeki her bir öğenin üstüne mouse geldiğinde arka plan rengi siyah olur */
@@ -156,4 +167,37 @@ h2{
 .menu a.hamburger.is-active, .menu a:hover{
     background-color: var(--primary);
 
+}
+.friends a.hamburger.is-active, .menu a:hover{
+    background-color: white;
+}
+
+
+.friends{
+    display: flex;
+    outline: 9px solid #FFC300;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    margin: 120px 15px;
+    border-radius: 3px;
+
+    
+       
+}
+.friends_menu{
+    color: #333;
+    display: flex;
+    margin: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #FFC300;
+    padding: 8px 16px;
+    border-radius: 99px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+    grid-template-rows: 600px 1fr ;
 }
