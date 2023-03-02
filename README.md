@@ -7,3 +7,5 @@ With this project, I wanted to make a social media site for movies. Just like In
 [Tr]
 Bu proje ile sadece filmler için bir sosyal medya sitesi yapmak istedim. Aynı instagram gibi, tek fark sadece filmler olacak. Yeni çıkan filmlere yorum ekleyebileceğiz, arkadaşlarımız bu yorumları görüp cevap verebilecekler.
 
+![image](https://user-images.githubusercontent.com/97802665/222540383-c34ddb7b-080b-47ab-87a4-95e529bf359f.png)
+
