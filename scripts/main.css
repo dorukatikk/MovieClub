@@ -1,7 +1,7 @@
 /* Daha sonra kullanmak üzere değişkenler belirlendi */ 
 :root{
     --primary: rgb(36, 34, 34);
-    --light: #FFC300;
+    --light: rgb(16, 14, 14);
 }
  
 *{
@@ -18,6 +18,7 @@
     align-items: center;
     /* justify content ile kutuların eşit uzaklıklarda olması sağlandı */
     justify-content: space-between;
+    
 
 }
 /* Navbar pozisyonu sabitlendi*/
@@ -30,6 +31,7 @@ nav{
     background-color: var(--light);
     padding: 16px 32px;
     border: 16px 32px;
+    border-bottom: 3px solid #8c38ff;
     
 }
 .layout_index_main{
@@ -38,7 +40,7 @@ nav{
 }
 .layout_right_bar{
         
-    outline: 3px solid #FFC300;
+    outline: 3px solid #8c38ff;
     border-radius: 10px;
 }
 
@@ -75,11 +77,11 @@ input[type="submit"]
     cursor: pointer;
 }
 h2{
-    color: #FFC300; 
+    color: #8c38ff; 
 }
 /* film seçeneğine girildiğinde sağ tarafta Friends yazısı yazıldı */
 h3{
-    color: #FFC300;
+    color: #8c38ff;
     padding: 8px 16px;;
 }
 .image_movie{
@@ -87,7 +89,7 @@ h3{
     width: 200px;
     height: 300px;
     margin: 110px 80px;
-    outline: 10px solid  #FFC300;
+    outline: 10px solid rgb(16, 14, 14);
     border-radius: 6px;
 
     
@@ -96,7 +98,7 @@ h3{
 }
 .image_movie:hover{
     transition: 0.2s;
-    border: 9px solid #FFC300;
+    border: 9px solid rgb(16, 14, 14);
 }
 .yt_video{
     margin-top: 130px;
@@ -128,7 +130,7 @@ h3{
 /* cursor hamburger menü üzerindeyken 2. block 10pixel hareket edecek ve renk değişecek */
 .hamburger:hover span:nth-child(2){
     transform: translateX(10px);
-    background-color: var(--primary);
+    background-color: #8c38ff;
 
 }
 /* butona basıldığında 1. blok 45 derece */
@@ -145,7 +147,7 @@ h3{
     transform: translate(-3px, 3px) rotate(-45deg)
 }
 .hamburger.hamburger.is-active:hover span{
-    background-color: var(--primary);
+    background-color: #8c38ff;
 }
 
 .menu{
@@ -167,13 +169,13 @@ h3{
     border-radius: 99px;
 }
 .menu a:hover{
-    background-color: var(--primary);
+    background-color: #8c38ff;
 
 }
 
 .friends{
     display: flex;
-    outline: 9px solid #FFC300;
+    outline: 9px solid rgb(16, 14, 14);
     flex-direction: column;
     gap: 15px;
     align-items: start;
@@ -184,16 +186,18 @@ h3{
        
 }
 .friends_menu{
-    color: #333;
+    color: white;
     display: flex;
     margin: 5px;
     font-weight: 600;
     text-decoration: none;
-    background-color: #FFC300;
+    transition: 0.4s;
     padding: 8px 16px;
     border-radius: 99px;
 }
-
+.friends_menu:hover{
+    background-color: #8c38ff;
+}
 .main{
     display: grid;
     grid-template-columns: 3fr 1fr ;
