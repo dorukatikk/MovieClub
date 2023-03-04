@@ -32,6 +32,20 @@ nav{
     border: 16px 32px;
     
 }
+.layout_index_main{
+    display: grid;
+    grid-template-columns: 85% auto;
+}
+.layout_right_bar{
+        
+    outline: 3px solid #FFC300;
+    border-radius: 10px;
+}
+
+.layout_movie_main{
+    display: grid;
+    grid-template-columns: 1100px 440px 100px;
+}
 .comment{
     margin-top: 30px;
     margin-left: 50px;
@@ -152,7 +166,7 @@ h3{
     padding: 8px 16px;
     border-radius: 99px;
 }
-.menu a.hamburger.is-active, .menu a:hover{
+.menu a:hover{
     background-color: var(--primary);
 
 }
