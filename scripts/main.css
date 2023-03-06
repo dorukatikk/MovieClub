@@ -51,7 +51,7 @@ nav{
 }
 .comment{
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 0px;
     width: 300px;
     border: 2px solid #333;
     padding: 15px 10px;
@@ -250,13 +250,14 @@ h3{
     .yt_video{
         width: 980px;
         height: 615px;
-       
+       margin-left: 50px;
     }
     .layout_leftbar{
         display: grid;
     }
     .comment{
         width: auto;
+        margin-left: 50px;
     }
     .mobile-nav.is-active{
         left: 75%;
