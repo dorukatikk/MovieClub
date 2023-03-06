@@ -6,9 +6,20 @@
     column-gap: 30px;
     
 }
+.layout_main_friends{
+    display: none;
+}
 .layout_leftbar{
-    
+    display: none;
     outline: 3px solid #8c38ff;
     border-radius: 10px;
+}
+@media (min-width: 1300px){
+    .layout_leftbar{
+        display: grid;
+    }
+    .layout_main_friends{
+        display: flex;
+    }
 }
 

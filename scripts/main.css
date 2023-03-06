@@ -40,18 +40,19 @@ nav{
 }
 .layout_right_bar{
         
-    
     border-radius: 10px;
 }
-
+.layout_leftbar{
+    display: none;
+}
 .layout_movie_main{
     display: grid;
-    grid-template-columns: 1100px 440px 100px;
+    grid-template-columns: 70% 10% 5%;
 }
 .comment{
     margin-top: 30px;
     margin-left: 50px;
-    width: 600px;
+    width: 450px;
     border: 2px solid #333;
     padding: 15px 10px;
     border-radius: 15px;
@@ -104,7 +105,11 @@ h3{
     margin-top: 130px;
     margin-left: 50px;
     
+
 }
+
+
+
 
 .hamburger{
     display: block;
@@ -234,8 +239,25 @@ h3{
     grid-template-columns: 3fr 1fr ;
     grid-template-rows: 600px 1fr ;
 }
-@media (min-width: 600px){
+.layout_main_friends{
+    display: none;
+}
+@media (min-width: 900px){
+    .layout_main_friends{
+        display: block;
+    }
 
+    .yt_video{
+        width: 980px;
+        height: 615px;
+       
+    }
+    .layout_leftbar{
+        display: grid;
+    }
+    .comment{
+        width: auto;
+    }
     .mobile-nav.is-active{
         left: 75%;
     }
