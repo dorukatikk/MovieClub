@@ -1,3 +1,4 @@
+/* film-içerik-arkadaş-film şeklinde layout oluştu */
 .layout{
     display: grid;
     grid-template-columns: 365px 850px auto 365px ;
@@ -6,14 +7,17 @@
     column-gap: 30px;
     
 }
+/* responsive olması için gizledik */
 .layout_main_friends{
     display: none;
 }
+/* responsive olması için gizledik */
 .layout_leftbar{
     display: none;
     outline: 3px solid #8c38ff;
     border-radius: 10px;
 }
+/* responsive yapmak için 1300px sınır belirlendi */
 @media (min-width: 1300px){
     .layout_leftbar{
         display: grid;

@@ -34,10 +34,12 @@ nav{
     border-bottom: 3px solid #8c38ff;
     
 }
+/* ana sayfada responsive bir layout oluşturuldu */
 .layout_index_main{
     display: grid;
     grid-template-columns: 85% auto;
 }
+
 .layout_right_bar{
         
     border-radius: 10px;
@@ -45,10 +47,12 @@ nav{
 .layout_leftbar{
     display: none;
 }
+/* filmler için responsive layout */
 .layout_movie_main{
     display: grid;
     grid-template-columns: 70% 10% 5%;
 }
+/* yorum kutucuğu */
 .comment{
     margin-top: 30px;
     margin-left: 0px;
@@ -63,18 +67,22 @@ textarea
     width: 100%;
     border: none;
     border-bottom: 2px solid #aaa;
+    /* arka plan transparan yapıldı */
     background-color: transparent;
     margin-bottom: 10px;
+    /* kullanıcı tarafından boyutu değiştirilmemesi sağlandı */
     resize: none;
     outline: none;
     transition: .5s
 }
+
 input[type="submit"]
 {
     padding: 10px 15px;
     border: none;
     outline: none;
     border-radius: 5px;
+    /* nouse üstündeyken işaret olması için cursor kullanldı */
     cursor: pointer;
 }
 h2{
@@ -97,10 +105,12 @@ h3{
     
     
 }
+/* film resminin üzerindeyken outline büyütüldü */
 .image_movie:hover{
     transition: 0.2s;
     border: 9px solid rgb(16, 14, 14);
 }
+/* youtube videosunun sınrları belirlendi */
 .yt_video{
     margin-top: 130px;
     margin-left: 0px;
@@ -118,6 +128,7 @@ h3{
     background: none;
     cursor: pointer;
 }
+/* hamburger buton yapıldı */
 .hamburger span{
     display: block;
     width: 33px;
@@ -148,12 +159,15 @@ h3{
     opacity: 0;
     transform: translateX(15px);
 }
+/* 3. spanın hareket etmesi için nth_child() kullanıldı */
 .hamburger.is-active span:nth-child(3){
     transform: translate(-3px, 3px) rotate(-45deg)
 }
+/* cursor hamburger üzerindeyken renk değişmesi sağlandı */
 .hamburger.hamburger.is-active:hover span{
     background-color: #8c38ff;
 }
+/* hamburger nav oluşturuldu ve açılır pencere olması sağlandı */
 .mobile-nav{
     position: fixed;
     top: 0;
@@ -170,6 +184,7 @@ h3{
     left: 0;
 
 }
+
 .mobile_a{
     display: block;
     color: white;
@@ -242,6 +257,7 @@ h3{
 .layout_main_friends{
     display: none;
 }
+/* responsive yapıldı */
 @media (min-width: 900px){
     .layout_main_friends{
         display: block;
