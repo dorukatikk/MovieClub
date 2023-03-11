@@ -8,7 +8,9 @@ With this project, I wanted to make a social media site for movies. Just like In
 ![image](https://user-images.githubusercontent.com/97802665/222923787-bb68ccc0-626c-497b-a302-3793fcb38bda.png)
 ![image](https://user-images.githubusercontent.com/97802665/224494212-20465b1a-df6d-4d66-a758-4a87180be039.png)
 ![image](https://user-images.githubusercontent.com/97802665/224494231-7907426b-4d21-4b01-b5bd-4824478be54e.png)
+-------Responsive Tasarım-------
 ![image](https://user-images.githubusercontent.com/97802665/224494252-945a77fe-fcd6-452c-b626-75b7abf10733.png)
+![image](https://user-images.githubusercontent.com/97802665/224494313-c84908c4-0fdd-4997-b88e-34577347920e.png)
 
 
 [Tr]
